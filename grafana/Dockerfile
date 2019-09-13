@@ -8,4 +8,4 @@ COPY dashboards /etc/grafana/dashboards/
 ENV GF_SECURITY_ADMIN_PASSWORD=admin \
     GF_SECURITY_ADMIN_USER=admin \
     GF_PATHS_PROVISIONING=/etc/grafana/provisioning/
-      GF_INSTALL_PLUGINS=grafana-clock-panel,grafana-simple-json-datasource,alexanderzobnin-zabbix-app/
+    
